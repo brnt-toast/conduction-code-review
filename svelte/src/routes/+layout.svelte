@@ -4,7 +4,7 @@
 
 <header>
   <nav><a href="/"> home</a></nav>
-  <h1>Hello World</h1>
+  <h1>Hello World Svelte</h1>
 </header>
 
 <slot />
