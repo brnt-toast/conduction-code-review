@@ -11,6 +11,7 @@ export default function TodoList() {
             <TodoItem />
             <TodoItem />
             <TodoItem />
+            <TodoItem />
             
             <p className="message">
                 there are {NUM + 1} unfinished tasks
