@@ -1,0 +1,35 @@
+block vars 
+    - const NUM = 3
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+        link(rel="stylesheet", href="index.sass")
+        title Document
+    body 
+        include includes/header.pug
+
+        main
+            form
+                input(type="text" placeholder='add todo')
+                button(type="submit") +
+
+            ol
+                li 
+                    .todo
+                        p sample todo
+                        button del
+                - for (var x = 0; x < NUM; x++)
+                    li
+                        .todo 
+                            p sample todo 
+                            button del
+
+            p.message there are #{NUM + 1} unfinished tasks
+
+        include includes/footer.pug
+        script(type="module" src="./index.js") 
