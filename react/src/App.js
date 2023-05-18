@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 
 import Todo from './components/Todo'
 
-const NUM = 3
+
 
 export default function App() {
   return (
