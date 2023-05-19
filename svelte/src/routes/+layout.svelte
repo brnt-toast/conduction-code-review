@@ -3,7 +3,10 @@
 </script>
 
 <header>
-  <nav><a href="/"> home</a></nav>
+  <nav>
+    <a href="/"> home</a>
+    <a href='/about'> about</a>
+  </nav>
   <h1>Hello World Svelte</h1>
 </header>
 
